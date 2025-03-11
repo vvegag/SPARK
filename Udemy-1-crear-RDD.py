@@ -29,6 +29,6 @@ rdd.take(3)
 
 rdd2 = spark.sparkContext.textFile("dbfs:/FileStore/tables/linkedinaperfilesmongo-2.csv")
 
-# Verificar los primeros elementos del RDD
+# Verificar los primeros elementos del RDD Este arquivo é original
 rdd2.take(5)
 

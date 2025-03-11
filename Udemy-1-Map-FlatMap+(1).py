@@ -35,7 +35,7 @@ rdd = sc.parallelize(["a b c", "d e", "f"])  # Crear un RDD con cadenas
 resultado = rdd.flatMap(lambda x: x.split(" "))  # Dividir cada cadena por espacio
 print(resultado.collect())  # Salida: ['a', 'b', 'c', 'd', 'e', 'f']
 
-# COMMAND ----------
+# COMMAND ------------
 
 # MAGIC %md
 # MAGIC
