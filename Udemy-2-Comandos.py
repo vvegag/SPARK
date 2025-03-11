@@ -24,7 +24,7 @@ dbutils.fs.mkdirs("dbfs:/FicherosCursoPyspark")
 
 # COMMAND ----------
 
-#mover un archivo o directorio
+#mover un archivo o directorio . 
 
 dbutils.fs.mv ("dbfs:/FileStore/tables/linkedinaperfilesmongo-1.csv" , "dbfs:/FicherosCursoPyspark/linkedin.csv" )
 
