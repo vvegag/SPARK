@@ -25,7 +25,7 @@ rdd.take(3)
 
 # COMMAND ----------
 
-#REFERENCIA A UN DATASET
+#REFERENCIA A UN DATASET Main
 
 rdd2 = spark.sparkContext.textFile("dbfs:/FileStore/tables/linkedinaperfilesmongo-2.csv")
 
